@@ -2,21 +2,54 @@
 
     background-color: bisque;
     height: 80px;
+    margin-top: 0rem;
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
+
+h1.title {
+
+    margin-left: 60rem;
+    margin-bottom: 0.5rem;
+}
+
+
+ul {
+
+    list-style: none;
+
+}
+
+li {
+
+    float: left;
+
+}
 .menu-bars {
-    margin-left: 0rem;
+    margin-left: 5rem;
+    margin-top: 0.2rem;
     font-size: 2rem;
     background: none;
 }
 
+.nav-menu-items {
+
+    margin-top: 0.6rem;
+
+}
+
+.navbar-toggle {
+
+    margin-top: 0.9rem;
+
+}
+
 .nav-menu {
     background-color: coral;
-    width: 250px;
-    height: 100vh;
+    width: 600px;
+    height: 79px;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -51,6 +84,7 @@
     border-radius: 4px;
 }
 
+
 .nav-text a:hover {
     background-color:floralwhite;
     width: 100%;
@@ -61,5 +95,5 @@
 }
 
 .span {
-    margin-left: 16px;
+    margin-left: 15px;
 }

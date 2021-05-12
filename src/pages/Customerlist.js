@@ -62,7 +62,7 @@ const addCustomer = (newCustomer) => {
         body: JSON.stringify(newCustomer),
         headers: { 'Content-type' : 'application/json' }
     })
-    .then(_ => fetchCustomers)
+    .then(_ => fetchCustomers())
     .catch(err => console.error(err))
 }
 
@@ -82,15 +82,15 @@ const columns = [
 
     {
         headerName: '',
-        field: 'links[0].href',
+        field: "links.0.href",
         width: 80,
         cellRendererFramework: params =>
-         <EditCustomer link={params.link} customer={params.data} updateCustomer={updateCustomer}/>
+         <EditCustomer link={params.value} customer={params.data} updateCustomer={updateCustomer}/>
     },
 
     {
         headerName: '',
-        field: 'links[0].href',
+        field: "links.0.href",
         width: 80,
         cellRendererFramework: params =>
          <IconButton color="secondary" onClick={() => deleteCustomer(params.value)} >

@@ -66,7 +66,8 @@ const columns = [
     { field: 'activity', sortable: true, filter: true },
     { field: 'date', sortable: true, filter: true },
     { field: 'duration', sortable: true, filter: true },
-    { field: 'customer', sortable: true, filter: true },
+    { field: 'customer.firstname', sortable: true, filter: true },
+    { field: 'customer.lastname', sortable: true, filter: true },
 ]
 
 return (
