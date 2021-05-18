@@ -113,7 +113,7 @@ function AddCustomer(props) {
                     Cancel
                 </Button>
                 <Button onClick={handleSave} color="primary">
-                    Save Edit
+                    Save
                 </Button>
             </DialogActions>
         </Dialog>

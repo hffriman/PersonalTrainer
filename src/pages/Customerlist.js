@@ -78,6 +78,7 @@ const updateCustomer = (url, updatedCustomer) => {
     .catch(err => console.error(err))
 }
 
+
 const columns = [
 
     {

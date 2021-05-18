@@ -34,7 +34,7 @@ const fetchTrainings = () => {
     .catch(err => console.error(err))
 }
 
-const deleteCustomer = (url) => {
+const deleteTraining = (url) => {
 
     if(window.confirm('Are you sure?'))
         fetch(url, {method : 'DELETE'})
@@ -45,7 +45,7 @@ const deleteCustomer = (url) => {
                 openSnackBar();
             }
             else {
-                alert('Something went wrong');
+                alert('Deletion Function Not Complete');
             }
         })
         .catch(err => console.error(err))
@@ -55,16 +55,16 @@ const columns = [
 
     {
         headerName: '',
-        field: 'links[0].href',
+        field: 'links.0.href',
         width: 80,
         cellRendererFramework: params =>
-         <IconButton color="secondary" onClick={() => deleteCustomer(params.value)} >
+         <IconButton color="secondary" onClick={() => deleteTraining(params.value)} >
          <DeleteIcon/>
          </IconButton>
     },
 
     { field: 'activity', sortable: true, filter: true },
-    { field: 'date', sortable: true, filter: true },
+    { field: 'date', width: '650px', sortable: true, filter: true },
     { field: 'duration', sortable: true, filter: true },
     { field: 'customer.firstname', sortable: true, filter: true },
     { field: 'customer.lastname', sortable: true, filter: true },

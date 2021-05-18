@@ -10,15 +10,11 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 function AddTraining(props) {
 
     const[open, setOpen] = React.useState(false);
-    const[customer, setCustomer] = React.useState({
+    const[training, setTraining] = React.useState({
 
-        firstname: '',
-        lastname: '',
-        streetaddress: '',
-        postcode: '',
-        city: '',
-        email: '',
-        phone: ''
+        date: '',
+        duration: '',
+        activity: ''
     })
 
     const handleClickOpen = () => {
@@ -30,80 +26,48 @@ function AddTraining(props) {
     };
 
     const handleSave = () => {
-        props.addCustomer(customer);
+        props.addTraining(training);
         setOpen(false);
     }
 
     const inputChanged = (event) => {
-        setCustomer({...customer, [event.target.name]: event.target.value})
+        setTraining({...training, [event.target.name]: event.target.value})
     }
 
     return (
         <div>
             <Button style={{marginTop : 10}} variant="outlined" 
             color="primary" onClick={handleClickOpen}>
-                Add Customer
+                Add Training
             </Button>
             <Dialog open={open} onClose={handleClose} 
             aria-labelledby="form-dialog-title">
-            <DialogTitle id="form-dialog-title">ADD CUSTOMER</DialogTitle>
+            <DialogTitle id="form-dialog-title">ADD TRAINING</DialogTitle>
             <DialogContent>
                 <DialogContentText>
-                   Add a New Customer
+                   Add a New Training
                 </DialogContentText>
                 <TextField
                     margin="dense"
-                    label="Firstname"
-                    name="firstname"
-                    value={customer.firstname}
+                    label="Date"
+                    name="date"
+                    value={training.date}
                     onChange={inputChanged}
                     fullWidth
                 />
                 <TextField
                     margin="dense"
-                    label="Lastname"
-                    name="lastname"
-                    value={customer.lastname}
+                    label="Duration"
+                    name="duration"
+                    value={training.duration}
                     onChange={inputChanged}
                     fullWidth
                 />
                 <TextField
                     margin="dense"
-                    label="Street Address"
-                    name="streetaddress"
-                    value={customer.streetaddress}
-                    onChange={inputChanged}
-                    fullWidth
-                />
-                <TextField
-                    margin="dense"
-                    label="Post Code"
-                    name="postcode"
-                    value={customer.postcode}
-                    onChange={inputChanged}
-                    fullWidth
-                />
-                <TextField
-                    margin="dense"
-                    label="City"
-                    name="city"
-                    value={customer.city}
-                    onChange={inputChanged}
-                    fullWidth
-                />
-                <TextField
-                    margin="dense"
-                    label="Email"
-                    name="email"
-                    value={customer.email}
-                    onChange={inputChanged}
-                    fullWidth
-                />
-                <TextField
-                    margin="dense"
-                    label="Phone"
-                    name="phone"
-                    value={customer.phone}
+                    label="Activity"
+                    name="activity"
+                    value={training.activity}
                     onChange={inputChanged}
                     fullWidth
                 />
