@@ -28,9 +28,9 @@ function Traininglist() {
 
 const fetchTrainings = () => {
 
-    fetch('https://customerrest.herokuapp.com/gettrainings')
+    fetch('https://customerrest.herokuapp.com/api/customers')
     .then(response => response.json())
-    .then(data => setTrainings(data))
+    .then(data => setTrainings(data.content))
     .catch(err => console.error(err))
 }
 
@@ -55,10 +55,10 @@ const columns = [
 
     {
         headerName: '',
-        field: 'links.0.href',
+        field: 'links.2.href',
         width: 80,
         cellRendererFramework: params =>
-         <IconButton color="secondary" onClick={() => deleteTraining(params.value)} >
+         <IconButton color="secondary" onClick={() => deleteTraining('locahost:3000/customer/2/trainings/19')} >
          <DeleteIcon/>
          </IconButton>
     },
@@ -66,8 +66,8 @@ const columns = [
     { field: 'activity', sortable: true, filter: true },
     { field: 'date', width: '650px', sortable: true, filter: true },
     { field: 'duration', sortable: true, filter: true },
-    { field: 'customer.firstname', sortable: true, filter: true },
-    { field: 'customer.lastname', sortable: true, filter: true },
+    { field: 'firstname', sortable: true, filter: true },
+    { field: 'lastname', sortable: true, filter: true },
 ]
 
 return (

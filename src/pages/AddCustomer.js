@@ -18,7 +18,7 @@ function AddCustomer(props) {
         postcode: '',
         city: '',
         email: '',
-        phone: ''
+        phone: '',
     })
 
     const handleClickOpen = () => {

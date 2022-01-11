@@ -114,15 +114,15 @@ return (
         <AddCustomer addCustomer={addCustomer}/>
 
         <div className="ag-theme-material" 
-        style={{height: 570, width: '100%', margin: 'auto'}}>
+            style={{height: 570, width: '100%', margin: 'auto'}}>
             <AgGridReact
-            rowData={customers}
-            columnDefs={columns}
-            pagination={true}
-            paginationPageSize={8}
-            floatingFilter={true}
-            suppressCellSelection={true}
-        />
+                rowData={customers}
+                columnDefs={columns}
+                pagination={true}
+                paginationPageSize={8}
+                floatingFilter={true}
+                suppressCellSelection={true}
+            />
         </div>
         
         <Snackbar
