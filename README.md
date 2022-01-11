@@ -22,7 +22,6 @@ Personal Trainer: The Last Exercise of the Course "Front End Programming" of Haa
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 
 <!-- PROJECT LOGO -->
@@ -89,14 +88,14 @@ Personal Trainer: The Last Exercise of the Course "Front End Programming" of Haa
 ### Screenshots
 
 <div align="center">
-   <img src="images/personaltrainer-screenshot-0.jpg" width="23%" height="23%">
-   <img src="images/personaltrainer-screenshot-0-1.jpg" width="23%" height="23%">
-   <img src="images/personaltrainer-screenshot-1.jpg" width="23%" height="23%">
-   <img src="images/personaltrainer-screenshot-3.jpg" width="23%" height="23%">
-   <img src="images/personaltrainer-screenshot-4.jpg" width="23%" height="23%">
-   <img src="images/personaltrainer-screenshot-5.jpg" width="23%" height="23%">
-   <img src="images/personaltrainer-screenshot-6.jpg" width="23%" height="23%">
-   <img src="images/personaltrainer-screenshot-2.jpg" width="23%" height="23%">
+   <img src="images/personal-trainer-screenshot-0.jpg" width="23%" height="23%">
+   <img src="images/personal-trainer-screenshot-0-1.jpg" width="23%" height="23%">
+   <img src="images/personal-trainer-screenshot-1.jpg" width="23%" height="23%">
+   <img src="images/personal-trainer-screenshot-3.jpg" width="23%" height="23%">
+   <img src="images/personal-trainer-screenshot-4.jpg" width="23%" height="23%">
+   <img src="images/personal-trainer-screenshot-5.jpg" width="23%" height="23%">
+   <img src="images/personal-trainer-screenshot-6.jpg" width="23%" height="23%">
+   <img src="images/personal-trainer-screenshot-2.jpg" width="23%" height="23%">
 </div>
 <br>
 <br>
