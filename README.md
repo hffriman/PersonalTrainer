@@ -88,7 +88,7 @@ Personal Trainer: The Last Exercise of the Course "Front End Programming" of Haa
 ### Screenshots
 
 <div align="center">
-   <img src="images/personal-trainer-screenshot-0.jpg" width="10%" height="100%">
+   <img src="images/personal-trainer-screenshot-0.jpg" width="100%" height="100%">
    <br />
    <br />
    <img src="images/personal-trainer-screenshot-0-1.jpg" width="100%" height="100%">
@@ -131,7 +131,7 @@ Personal Trainer: The Last Exercise of the Course "Front End Programming" of Haa
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/hffriman/Game-Art-Atelier.git
+   git clone https://github.com/hffriman/PersonalTrainer.git
    ```
 2. Install the node modules of the project
    ```sh
@@ -148,7 +148,7 @@ Personal Trainer: The Last Exercise of the Course "Front End Programming" of Haa
 <!-- ROADMAP -->
 ## Roadmap
 
-Please see [open issues](https://github.com/hffriman/Game-Art-Atelier/issues) to find out the latest functionality wishes and issue reports.
+Please see [open issues](https://github.com/hffriman/PersonalTrainer/issues) to find out the latest functionality wishes and issue reports.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -179,7 +179,7 @@ Henry Friman
   * Twitter: [@hffriman](https://twitter.com/@hfffennec)
   * Mail Adddress: henfriman.second@gmail.com
   * Link to My Profile: [https://github.com/hffriman](https://github.com/hffriman)
-  * Link to this project: [https://github.com/hffriman/Game-Art-Atelier](https://github.com/hffriman/Game-Art-Atelier)
+  * Link to this project: [https://github.com/hffriman/PersonalTrainer](https://github.com/hffriman/PersonalTrainer)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
