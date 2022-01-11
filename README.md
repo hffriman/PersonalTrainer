@@ -88,22 +88,29 @@ Personal Trainer: The Last Exercise of the Course "Front End Programming" of Haa
 ### Screenshots
 
 <div align="center">
-   <img src="images/personal-trainer-screenshot-0.jpg" width="90%" height="90%">
-   <br>
-   <img src="images/personal-trainer-screenshot-0-1.jpg" width="90%" height="90%">
-   <br>
-   <img src="images/personal-trainer-screenshot-1.jpg" width="90%" height="90%">
-   <br>
-   <img src="images/personal-trainer-screenshot-3.jpg" width="90%" height="90%">
-   <br>
-   <img src="images/personal-trainer-screenshot-4.jpg" width="90%" height="90%">
-   <br>
-   <img src="images/personal-trainer-screenshot-5.jpg" width="90%" height="90%">
-   <br>
-   <img src="images/personal-trainer-screenshot-6.jpg" width="90%" height="90%">
-   <br>
-   <img src="images/personal-trainer-screenshot-2.jpg" width="90%" height="90%">
-   <br>
+   <img src="images/personal-trainer-screenshot-0.jpg" width="10%" height="100%">
+   <br />
+   <br />
+   <img src="images/personal-trainer-screenshot-0-1.jpg" width="100%" height="100%">
+   <br />
+   <br />
+   <img src="images/personal-trainer-screenshot-1.jpg" width="100%" height="100%">
+   <br />
+   <br />
+   <img src="images/personal-trainer-screenshot-3.jpg" width="100%" height="100%">
+   <br />
+   <br />
+   <img src="images/personal-trainer-screenshot-4.jpg" width="100%" height="100%">
+   <br />
+   <br />
+   <img src="images/personal-trainer-screenshot-5.jpg" width="100%" height="100%">
+   <br />
+   <br />
+   <img src="images/personal-trainer-screenshot-6.jpg" width="100%" height="100%">
+   <br />
+   <br />
+   <img src="images/personal-trainer-screenshot-2.jpg" width="100%" height="100%">
+   <br />
 </div>
 <br>
 <br>
